@@ -19,7 +19,7 @@ public class Test {
         
        Producto p = new Producto();
        
-       p.setNombre("MANZANA");
+       p.setNombre("PEPITO");
        Double dl = 10.35;
        BigDecimal bdl = BigDecimal.valueOf(dl.doubleValue());
        p.setPrecio(bdl);
@@ -27,7 +27,7 @@ public class Test {
         try {
             //pjc.create(p);
             //pjc.edit(p);
-            pjc.destroy(1);
+            //pjc.destroy(1);
         } catch (Exception ex) {
             Logger.getLogger(Test.class.getName()).log(Level.SEVERE,null, ex);
         }
